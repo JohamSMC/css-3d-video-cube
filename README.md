@@ -4,3 +4,5 @@ This effect was achieved by following this (Video-Tutorial)[TUTORIAL](https://ww
 
 Video downloaded from this [**PAGE**](https://www.pexels.com/)
 
+### [*DEMO*](https://johamsmc.github.io/css-3d-video-cube/index.html)
+
