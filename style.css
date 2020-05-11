@@ -82,3 +82,30 @@ section .box div span:nth-child(3)
 {
     transform: rotateX(90deg) translate3d( 0,0,200px);
 }
+
+@media (max-width: 900px) 
+{
+    section .box
+    {        
+        top: calc(50% - 50px);
+        left: calc(50% - 50px);
+        width: 100px;
+        height: 100px;
+    }    
+    section .box div span:nth-child(1)
+    {
+        transform: rotateX(0deg) translate3d( 0,0,50px);
+    }
+    section .box div span:nth-child(2)
+    {
+        transform: rotateY(90deg) translate3d( 0,0,-50px);
+    }
+    section .box div span:nth-child(2) video
+    {
+        transform: rotateY(180deg);
+    }
+    section .box div span:nth-child(3)
+    {
+        transform: rotateX(90deg) translate3d( 0,0,50px);
+    }
+}
